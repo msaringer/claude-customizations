@@ -1,24 +1,33 @@
 # claude-customizations
 
-Personal Claude Code mods, set up as a local plugin marketplace.
+Personal Claude Code mods, published as a plugin marketplace.
 
 | Mod | What it does |
 | --- | --- |
 | [usage-meter](usage-meter/) | Coloured row under the prompt: model, effort, context fill, tokens, rate limits and estimated cost |
 
-## Install on another machine
+## Install
 
-Clone or sync this folder, then at a Claude Code prompt:
-
-```
-/plugin marketplace add ~/Dropbox/git/claude-customizations
-/plugin install usage-meter@claude-customizations
-```
-
-Or, without installing, load it for one session:
+At a Claude Code prompt:
 
 ```
-claude --plugin-dir ~/Dropbox/git/claude-customizations/usage-meter
+/plugin install usage-meter --marketplace msaringer/claude-customizations
 ```
 
-After editing a mod, run `/plugin marketplace update claude-customizations` to pick up the change.
+Answer `y` to add the marketplace, then pick a scope. Or from a shell:
+
+```
+claude plugin install usage-meter --marketplace msaringer/claude-customizations
+```
+
+This repository is private, so the machine needs git access to it (signed in with `gh`, or an SSH key on the account).
+
+## Develop
+
+To load a mod from a local clone for one session, without installing it:
+
+```
+claude --plugin-dir <path to clone>/usage-meter
+```
+
+After pushing a change, run `/plugin marketplace update claude-customizations` on each machine to pick it up.
