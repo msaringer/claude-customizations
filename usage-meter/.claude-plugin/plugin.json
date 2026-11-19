@@ -1,0 +1,6 @@
+{
+  "name": "usage-meter",
+  "version": "0.2.0",
+  "description": "Coloured row under the prompt: model, effort, context fill, tokens, rate limits and estimated cost",
+  "types": "./types/index.d.ts"
+}

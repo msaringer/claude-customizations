@@ -1,0 +1,11 @@
+{
+  "name": "claude-customizations",
+  "owner": { "name": "claude-customizations" },
+  "plugins": [
+    {
+      "name": "usage-meter",
+      "source": "./usage-meter",
+      "description": "Coloured row under the prompt: model, effort, context fill, tokens, rate limits and estimated cost"
+    }
+  ]
+}
