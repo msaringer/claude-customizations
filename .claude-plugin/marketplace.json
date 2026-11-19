@@ -1,11 +1,13 @@
 {
   "name": "claude-customizations",
-  "owner": { "name": "claude-customizations" },
+  "owner": {
+    "name": "claude-customizations"
+  },
   "plugins": [
     {
       "name": "usage-meter",
       "source": "./usage-meter",
-      "description": "Coloured row under the prompt: model, effort, context fill, tokens, rate limits and estimated cost"
+      "description": "Coloured row under the prompt: model, git, context, tokens and cache hit rate, 5h reset countdown, turn and total cost"
     }
   ]
 }

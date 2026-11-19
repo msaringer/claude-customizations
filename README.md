@@ -4,7 +4,7 @@ Personal Claude Code mods, published as a plugin marketplace.
 
 | Mod | What it does |
 | --- | --- |
-| [usage-meter](usage-meter/) | Coloured row under the prompt: model, effort, context fill, tokens, rate limits and estimated cost |
+| [usage-meter](usage-meter/) | Coloured row under the prompt: model, git, context, tokens and cache hit rate, 5h reset countdown, turn and total cost |
 
 ## Install
 

@@ -1,6 +1,6 @@
 {
   "name": "usage-meter",
-  "version": "0.2.0",
-  "description": "Coloured row under the prompt: model, effort, context fill, tokens, rate limits and estimated cost",
+  "version": "0.3.0",
+  "description": "Coloured row under the prompt: model, git, context fill, tokens and cache hit rate, 5h reset countdown, turn and total cost",
   "types": "./types/index.d.ts"
 }
